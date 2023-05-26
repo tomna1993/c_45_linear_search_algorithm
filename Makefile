@@ -2,5 +2,5 @@ CC := gcc
 #CFLAGS := 
 DEST := ./build/
 
-substitution: linear_serach.c
-	$(CC) linear_serach.c -lcs50 -o $(DEST)/linear_serach 
+all: linear_search.c
+	$(CC) linear_search.c -lcs50 -o $(DEST)/linear_search 
